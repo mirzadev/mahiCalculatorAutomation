@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"divResults\"}\n  (Session info: chrome=126.0.6478.127)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF612B4EEC2+31554]\n\t(No symbol) [0x00007FF612AC7EF9]\n\t(No symbol) [0x00007FF61298872A]\n\t(No symbol) [0x00007FF6129D8434]\n\t(No symbol) [0x00007FF6129D853C]\n\t(No symbol) [0x00007FF612A1F6A7]\n\t(No symbol) [0x00007FF6129FD06F]\n\t(No symbol) [0x00007FF612A1C977]\n\t(No symbol) [0x00007FF6129FCDD3]\n\t(No symbol) [0x00007FF6129CA33B]\n\t(No symbol) [0x00007FF6129CAED1]\n\tGetHandleVerifier [0x00007FF612E58B5D+3217373]\n\tGetHandleVerifier [0x00007FF612EA5B23+3532707]\n\tGetHandleVerifier [0x00007FF612E9B120+3489184]\n\tGetHandleVerifier [0x00007FF612BFE796+750614]\n\t(No symbol) [0x00007FF612AD377F]\n\t(No symbol) [0x00007FF612ACEB34]\n\t(No symbol) [0x00007FF612ACECC2]\n\t(No symbol) [0x00007FF612ABE18F]\n\tBaseThreadInitThunk [0x00007FFA19A0257D+29]\n\tRtlUserThreadStart [0x00007FFA1B3EAF28+40]\n"
+}
