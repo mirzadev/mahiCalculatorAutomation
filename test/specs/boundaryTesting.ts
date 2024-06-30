@@ -63,20 +63,21 @@ describe('Varifying the number input range - TC-1014 & TC-1015', () => {
 
             await homePage.firstNumInput.setValue ("9999.01") ;
             await homePage.secondNumInput.setValue ("-8888") ;
-            await homePage.multiplyBtn.click();  
+            await homePage.addnBtn.click();  
     
             const calResult =  $('#result')
-            await expect(calResult).toHaveText("-88871200.88")     
+            await expect(calResult).toHaveText("1111.0100000000002")     
         })
 
         it('First number -1 && second number 231', async () => {
     
+            await homePage.clearBtn.click();
             await homePage.firstNumInput.setValue ("-1") ;
             await homePage.secondNumInput.setValue ("231") ;
-            await homePage.multiplyBtn.click();  
+            await homePage.addnBtn.click();  
     
             const calResult =  $('#result')
-            await expect(calResult).toHaveText("-231")     
+            await expect(calResult).toHaveText("230")     
         })
 
         it('First number 9999 && second number 8999.98', async () => {

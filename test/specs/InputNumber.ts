@@ -1,6 +1,6 @@
 import homePage from "../pageobjects/home.page.js";
 
-describe('Validating the number entered in the input field', ()=>{
+describe('Validating the number entered in the input field- TC-1025', ()=>{
 
     beforeEach("Open the application using URL", async ()=>{
         console.log("Application opened in browser")

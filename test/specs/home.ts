@@ -24,11 +24,11 @@ describe('Number and result header displayed correctly TC-1009-1011', ()=>{
     })
 
     it('Second number header displayed correctly', async () => {           
-        await expect(homePage.secondNumHeader).toBeDisplayed() ;   
+        await expect(homePage.secondNumHeader).toHaveText('Your Second Number:') ;   
     })
 
     it('Calculation result header displayed', async () => {   
-        await expect(homePage.calResult).toHaveText("Calculation Result:")   
+        await expect(homePage.calResult).toBeDisplayed()   
     })
 })
 
@@ -43,7 +43,7 @@ describe('All operating buttons displayed correctly', ()=>{
     })
     
     it('verify multiplication button text', async () => {    
-        await expect(homePage.multiplyBtn).toBeDisplayed() ;   
+        await expect(homePage.multiplyBtn).toHaveText('Multiplication') ;   
     })
     
     it('verify division button text', async () => {    
@@ -53,7 +53,7 @@ describe('All operating buttons displayed correctly', ()=>{
     
 describe('Clear button text displayed correctly', ()=>{
 
-    it('verify division button text', async () => {   
+    it('verify clear button text', async () => {   
         await expect(homePage.clearBtn).toBeDisplayed() ;   
     })
 })

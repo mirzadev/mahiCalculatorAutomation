@@ -11,8 +11,7 @@ describe('System does not calculate for one or more out of range number - TC-101
         await homePage.secondNumInput.setValue ("-55") ;
         await homePage.addnBtn.click();  
 
-        const calResult =  $('#result')
-        await expect(calResult).toHaveText("")     
+        await expect(homePage.calResult).toHaveText("")     
     })
 
     it('Subtraction - First number -10000 && second number -10000', async () => {
@@ -21,8 +20,7 @@ describe('System does not calculate for one or more out of range number - TC-101
         await homePage.secondNumInput.setValue ("-10000") ;
         await homePage.subtractBtn.click();  
 
-        const calResult =  $('#result')
-        await expect(calResult).toHaveText("")     
+        await expect(homePage.calResult).toHaveText("")    
     })
 
     it('Multiplication - First number -10000 && second number -10', async () => { 
@@ -30,8 +28,7 @@ describe('System does not calculate for one or more out of range number - TC-101
         await homePage.secondNumInput.setValue ("-10") ;
         await homePage.multiplyBtn.click();  
 
-        const calResult =  $('#result')
-        await expect(calResult).toHaveText("")     
+        await expect(homePage.calResult).toHaveText("")    
     })
 
     it('Division - First number 12543 && second number 23', async () => {
@@ -40,8 +37,7 @@ describe('System does not calculate for one or more out of range number - TC-101
         await homePage.secondNumInput.setValue ("23") ;
         await homePage.divisionBtn.click();  
 
-        const calResult =  $('#result')
-        await expect(calResult).toHaveText("")     
+        await expect(homePage.calResult).toHaveText("")    
     })
 
     after("exit page", ()=>{
