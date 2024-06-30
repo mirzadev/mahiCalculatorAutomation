@@ -39,6 +39,7 @@ The application was automated for testing:
 - In terminal cli use 'npm run wdio'
 - System will run the automation testing.
 - There are total 41 test run script were generated under 7 classes.
+- The test environment run test in Chrome, Firefod and Edge browser. As a result total 21 test run and 123 test run were executed for these 3 browser.
 - The user can select to run test by specifying the class in spec: './test/specs/**/*.ts'. in wdio.config.ts file.
 
 
