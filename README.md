@@ -12,7 +12,7 @@ AS A Senior QA Analyst in MahiGamming, I want to automate Mihi Simple Calculator
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployed](#deployed)
-- [GIF Files](#Gif)
+- [GIF Files](#GifFiles)
 - [Tools](#tools)
 - [Questions](#questions)
 
@@ -48,7 +48,7 @@ The application was automated for testing:
 
 - \*[Mahi Calculator Automation](https://github.com/mirzadev/mahiCalculatorAutomation)
 
-## GIF Files
+## GifFiles
 
 - ![Automation GIF View](./Automation-CalculatorMochaTS.gif)
 
