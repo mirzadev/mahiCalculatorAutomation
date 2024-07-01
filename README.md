@@ -4,7 +4,7 @@
 
 ## Overview
 
-AS A Senior QA Asalyst in MahiGamming, I want to automate Mihi Simple Calculator using WebdriverIO from Selenium family. The script was created using TypeScript language and Mocha framework
+AS A Senior QA Analyst in MahiGamming, I want to automate Mihi Simple Calculator using WebdriverIO from Selenium family. The script was created using TypeScript language and Mocha framework
 
 ## Table of Contents
 
