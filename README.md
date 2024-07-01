@@ -12,7 +12,7 @@ AS A Senior QA Analyst in MahiGamming, I want to automate Mihi Simple Calculator
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployed](#deployed)
-- [GIF](#GifFiles)
+- [GIF Files](#Gif)
 - [Tools](#tools)
 - [Questions](#questions)
 
