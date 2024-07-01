@@ -47,6 +47,9 @@ The application was automated for testing:
 
 - \*[Mahi Calculator Automation](https://github.com/mirzadev/mahiCalculatorAutomation)
 
+## GIF Files
+
+- ![Automation GIF View](./Automation-CalculatorMochaTS.gif)
 
 ## Tools
 
