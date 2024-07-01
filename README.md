@@ -27,19 +27,19 @@ The application was automated for testing:
 ## Installation
 
 1. Install VS Code.
-2. Install latest NodeJS using the terminal.
-3. Install latest TypeScript using the terminal.
+2. Install the latest NodeJS using the terminal.
+3. Install the latest TypeScript using the terminal.
 4. In the terminal enter 'npm init wdio@latest' and press enter.
 5. Select Mocha as automation framework and TypeScript as language.
-6. Select Chrome, Firefox and MSEdge to have testing in different browser.
+6. Select Chrome, Firefox and MS Edge to have testing in different browser.
 
 ## Usage
 
 - In wdio.conf.ts file select services: ['visual], specs: ['./test/specs/**/*.ts'],
 - In terminal cli use 'npm run wdio'
-- System will run the automation testing.
-- There are total 41 test run script were generated under 7 classes.
-- The test environment run test in Chrome, Firefod and Edge browser. As a result total 21 test run and 123 test run were executed for these 3 browser.
+- The System will run automation testing.
+- There is a total of 41 test run scripts that were generated under 7 classes.
+- The test environment runs tests in Chrome, Firefox and Edge browser. As a result, a total of 21 test runs and 123 test runs were executed for these 3 browsers.
 - The user can select to run test by specifying the class in spec: './test/specs/**/*.ts'. in wdio.config.ts file.
 
 
